@@ -1,3 +1,24 @@
 *{
-    background: blue;
+    /*background: #f0f0f0;*/
+}
+:root {
+    --background: #f0f0f0;
+    --design-color: #e6563b;
+    --develop-color: #eb9d3a;
+    --support-color: #7cb06c;
+    --host-color: #00aba9;
+    --border-color: #e6e6e6;
+}
+nav{
+
+}
+.logo{
+    height: 105px;
+    width: 105px;
+}
+nav a{
+    font-family: 'Abel', sans-serif;
+}
+h1{
+    font-family: 'Anton', sans-serif;
 }
