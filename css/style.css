@@ -83,6 +83,7 @@ h5 {
 .side-image img {
     height: 60px;
     width: 60px;
+    border: 3px var(--border-color) solid;
 }
 
 .tweet {
@@ -100,26 +101,30 @@ h4 {
     }
 }
 
-
 @media (min-width: 992px) {
     h4 {
-        font-size: 1.35rem;
+        font-size: 1.69rem;
     }
     h1.display-1 {
         font-size: 4.25rem;
     }
+    .side-image {
+        margin-bottom: 2.8em;
+    }
 }
-
 
 @media (min-width: 1200px) {
     h4 {
         font-size: 1.5rem;
     }
+    .side-image {
+        margin-bottom: 2.5em;
+    }
 }
 
 @media (min-width: 1400px) {
     h4 {
-        font-size: 1.75rem;
+        font-size: 1.8rem;
     }
 }
 
