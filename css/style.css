@@ -65,7 +65,7 @@ h5{
     height: 18px;
     font-size: 10px;
     font-family: 'Anton', sans-serif;
-    margin: 0 1em;
+    margin: 0 0.2em;
 }
 .card-img-top{
     border: .5em var(--border-color) solid;
