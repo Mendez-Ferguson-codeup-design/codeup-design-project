@@ -60,3 +60,21 @@ h5{
 .circle-host {
     background-color: var(--host-color);
 }
+.custom-circle2 {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    font-family: 'Anton', sans-serif;
+    margin: 0 1em;
+}
+.card-img-top{
+    border: .5em var(--border-color) solid;
+}
+.side-img{
+    border:.2em var(--border-color) solid;
+}
+.side-container{
+    display: flex;
+    padding: 0;
+    margin-bottom: 4em;
+}
