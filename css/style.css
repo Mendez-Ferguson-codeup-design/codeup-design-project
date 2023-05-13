@@ -81,8 +81,8 @@ h5 {
 }
 
 .side-image img {
-    height: 60px;
-    width: 60px;
+    height: 74px;
+    width: 74px;
     border: 3px var(--border-color) solid;
 }
 
@@ -103,7 +103,7 @@ h4 {
 
 @media (min-width: 992px) {
     h4 {
-        font-size: 1.69rem;
+        font-size: 1.9rem;
     }
     h1.display-1 {
         font-size: 4.25rem;
@@ -118,7 +118,7 @@ h4 {
         font-size: 1.5rem;
     }
     .side-image {
-        margin-bottom: 2.5em;
+        margin-bottom: 2.2em;
     }
 }
 
@@ -133,3 +133,5 @@ h4 {
         font-size: 0.75rem;
     }
 }
+
+
