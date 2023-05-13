@@ -23,7 +23,7 @@ nav a, .title, h5 {
     width: 105px;
 }
 
-h1, h2, h4, .custom-circle, .small-circle {
+h1, h2, h4, .circle, .small-circle {
     font-family: var(--anton-font);
 }
 
@@ -35,15 +35,27 @@ h5 {
     padding-top: .25em;
 }
 
-.custom-circle, .card-img img {
-    border: 6px solid;
+.circle-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+    flex-wrap: wrap;
 }
 
-.custom-circle {
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
-    color: #ffffff;
-    margin: 0 1em;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+}
+
+.circle, .card-img img {
+    border: 6px solid white;
 }
 
 .circle-design, .small-circle-design {
